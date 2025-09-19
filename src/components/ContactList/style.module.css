@@ -1,0 +1,32 @@
+.contactList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.contactItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 320px;
+  min-width: 300px;
+}
+
+.contactItem span {
+  display: block;
+  font-weight: 500;
+  padding: 3px 0;
+}
+
+.contactItem span svg {
+  margin-right: 5px;
+}
+
+.contactItem button {
+  color: #fff;
+  background-color: rgb(161, 25, 25);
+  border: none;
+  padding: 7px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}

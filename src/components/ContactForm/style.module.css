@@ -1,0 +1,37 @@
+.contactForm {
+  max-width: 300px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.form input {
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+.form button {
+  display: block;
+  padding: 7px 15px;
+  background-color: #0077ff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.error {
+  display: block;
+  color: #d32f2f;
+  font-size: 12px;
+  margin-top: 2px;
+}
